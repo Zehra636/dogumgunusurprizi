@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İyi ki Doğdun ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Menü -->
+    <nav>
+        <div class="logo"> Saraç ❤️ Zehra</div>
+
+        <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#story">Hikâyemiz</a></li>
+            <li><a href="#counter">Sayaç</a></li>
+            <li><a href="#gallery">Anılarımız</a></li>
+            <li><a href="#travel">Seyahatler</a></li>
+        </ul>
+    </nav>
+
+    <!-- Ana Sayfa -->
+    <div class="container" id="home">
+
+       <h1>İyi ki Doğdun Sevgilim ❤️</h1>
+
+<h2>Bu sadece bir site değil...</h2>
+
+<p style="font-size:26px;">
+Birlikte yazdığımız hikâyenin
+en güzel anıları burada. ❤️
+</p>
+
+        <p>
+            Bu site sadece bir kişi için hazırlandı.
+        </p>
+
+        <p>
+            Eğer bunu okuyorsan...
+            <br>
+            Belki de o kişi sensindir. ❤️
+        </p>
+
+        <button onclick="startSite()">
+Evet, o kişi benim ❤️
+</button>
+        <div class="love-counter">
+
+    <h3>❤️ 31 Ekim 2024'ten Beri ❤️</h3>
+
+    <div class="love-box">
+
+        <div>
+            <span id="loveDays">0</span>
+            <small>Gün</small>
+        </div>
+
+        <div>
+            <span id="loveHours">0</span>
+            <small>Saat</small>
+        </div>
+
+        <div>
+            <span id="loveMinutes">0</span>
+            <small>Dakika</small>
+        </div>
+
+        <div>
+            <span id="loveSeconds">0</span>
+            <small>Saniye</small>
+        </div>
+
+    </div>
+
+</div>
+
+        <p id="typing"></p>
+
+    </div>
+
+    <!-- Hikâye -->
+
+    <section id="story" class="hidden">
+
+        <h2>❤️ Bizim Hikâyemiz ❤️</h2>
+
+        <p>
+
+            31 Ekim 2024...
+
+            <br><br>
+
+            Hayatımın en güzel "evet"lerinden biri.
+
+            <br><br>
+
+            O günden beri her günümü daha anlamlı yapan,
+            yanımda olduğunda kendimi güvende hissettiğim,
+            beraber güldüğüm,
+            gezdiğim,
+            yemek yediğim,
+            en güzel anılarımı biriktirdiğim kişi...
+
+            <br><br>
+
+            İyi ki varsın. ❤️
+
+        </p>
+
+    </section>
+
+    <!-- Sayaç -->
+
+    <section id="counter" class="hidden">
+
+        <h2>❤️ Birlikte Geçen Süre ❤️</h2>
+
+        <div class="counter-box">
+
+            <div class="box">
+                <h3 id="days">0</h3>
+                <span>Gün</span>
+            </div>
+
+            <div class="box">
+                <h3 id="hours">0</h3>
+                <span>Saat</span>
+            </div>
+
+            <div class="box">
+                <h3 id="minutes">0</h3>
+                <span>Dakika</span>
+            </div>
+
+        </div>
+
+    </section>
+
+   <section id="gallery">
+
+<h2>📸 Ay Ay Biz ❤️</h2>
+
+<div class="timeline">
+
+<div class="card">
+
+<h3>❤️ 31 Ekim 2024 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2024-10/1.jpg">
+
+</div>
+
+<p>Her şeyin başladığı gün... ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Kasım 2024 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2024-11/1.jpg">
+</div>
+
+<p>Birlikte ilk güzel anılarımızı biriktirmeye başladık. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Aralık 2024 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2024-12/1.jpg">
+</div>
+
+<p>Birlikte geçirdiğimiz sıcacık günler. ❤️</p>
+<div class="card">
+
+<h3>❤️ Ocak 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-01/1.jpg">
+</div>
+
+<p>Yeni yıla birlikte gülümseyerek başladık. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Şubat 2025 ❤️</h3>
+<div class="month-gallery">
+<img src="images/2025-02/1.jpg">
+</div>
+
+<p>Her geçen gün birbirimize daha çok alıştık. 🥰</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Mart 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-03/1.jpg">
+</div>
+
+<p>Birlikte yeni anılar biriktirmeye devam ettik. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Nisan 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-04/1.jpg">
+<img src="images/2025-04/2.jpg">
+</div>
+
+<p>Bahar gibi güzel günlerimiz başladı. 🌸</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Mayıs 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-05/1.jpg">
+</div>
+
+<p>Birlikte geçirdiğimiz her gün daha da güzeldi. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Haziran 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-06/1.jpg">
+</div>
+
+<p>Yazın ilk güzel anıları... ☀️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Temmuz 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-07/1.jpg">
+<img src="images/2025-07/2.jpg">
+</div>
+
+<p>Birlikte kahkahalarla dolu bir ay. 💕</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Ağustos 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-08/1.jpg">
+</div>
+
+<p>Yeni maceralarımıza devam ettik. 🌞</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Eylül 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-09/1.jpg">
+<img src="images/2025-09/2.jpg">
+<img src="images/2025-09/3.jpg">
+<img src="images/2025-09/4.jpg">
+</div>
+
+<p>Birbirinden güzel anılarla dolu bir ay. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Ekim 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-10/1.jpg">
+<img src="images/2025-10/2.jpg">
+<img src="images/2025-10/3.jpg">
+</div>
+
+<p>Birlikte bir yılı geride bırakmanın mutluluğu. 🎉</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Kasım 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-11/1.jpg">
+<img src="images/2025-11/2.jpg">
+</div>
+
+<p>Yine bol kahkahalı günler. 😊</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Aralık 2025 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2025-12/1.jpg">
+<img src="images/2025-12/2.jpg">
+<img src="images/2025-12/3.jpg">
+</div>
+
+<p>Birlikte geçirdiğimiz sıcacık kış günleri. ❄️❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Ocak 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-01/1.jpg">
+<img src="images/2026-01/2.jpg">
+<img src="images/2026-01/3.jpg">
+</div>
+
+<p>Yeni yıla yine birlikte girdik. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Şubat 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-02/1.jpg">
+<img src="images/2026-02/2.jpg">
+<img src="images/2026-02/3.jpg">
+</div>
+
+<p>Her gün seni daha çok sevdim. 💖</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Mart 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-03/1.jpg">
+<img src="images/2026-03/2.jpg">
+<img src="images/2026-03/3.jpg">
+</div>
+
+<p>Yeni anılar, yeni gülüşler... 🌸</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Nisan 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-04/1.jpg">
+<img src="images/2026-04/2.jpg">
+<img src="images/2026-04/3.jpg">
+<img src="images/2026-04/4.jpg">
+</div>
+
+<p>Beraber olduğumuz her an çok kıymetliydi. ❤️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Mayıs 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-05/1.jpg">
+<img src="images/2026-05/2.jpg">
+<img src="images/2026-05/3.jpg">
+<img src="images/2026-05/4.jpg">
+</div>
+
+<p>Gülüşün yine en güzel manzaramdı. 🥹</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Haziran 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-06/1.jpg">
+<img src="images/2026-06/2.jpg">
+<img src="images/2026-06/3.jpg">
+<img src="images/2026-06/4.jpg">
+</div>
+
+<p>Yazın en güzel anıları birlikteydi. ☀️</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>❤️ Temmuz 2026 ❤️</h3>
+
+<div class="month-gallery">
+<img src="images/2026-07/1.jpg">
+<img src="images/2026-07/2.jpg">
+<img src="images/2026-07/3.jpg">
+</div>
+
+<p>Ve bugün... İyi ki doğdun sevgilim. 🎂❤️</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+    <!-- Seyahat -->
+
+    <section id="travel"class="hidden">
+
+        <h2>✈️ Birlikte Gittiğimiz Yerler</h2>
+
+        <div class="travel-container">
+
+            <div class="travel-card">
+
+                <h3>📍 Ankara</h3>
+
+                <p>
+                    Birlikte çıktığımız en güzel yolculuklardan biri.
+                    Her anı hâlâ aklımda. ❤️
+                </p>
+
+            </div>
+
+            <div class="travel-card">
+
+                <h3>🦇 Batman</h3>
+
+                <p>
+                    Birlikte yeni yerlere gitmek için attığımız ilk adım.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="letter"class="hidden">
+
+    <h2>💌 Sana Bir Mektubum Var...</h2>
+
+    <div class="letter">
+
+        <p>
+
+            Sevgilim,
+
+            <br><br>
+
+            Belki sana verebileceğim en pahalı hediye bu değil...
+            Ama içinde bizim olduğumuz her şey zaten çok değerli.
+
+            <br><br>
+
+            Bu satırları yazarken birlikte geçirdiğimiz tüm anılar
+            tek tek gözümün önünden geçti.
+
+            <br><br>
+
+            Harput Dibek'teki ilk buluşmamız,
+            birlikte çıktığımız yolculuklar,
+            hastanede geçen günlerimiz,
+            Büryan Family,
+            Fast İşlem,
+            yorgunluklarımız,
+            kahkahalarımız en önemlisi de satırlara sığdıramadığım binlerce anı...
+
+            <br><br>
+
+            İyi ki hayatımdasın.
+
+            Bana her zaman güven verdiğin,
+            her konuda yanımda olduğun,
+            beni olduğum gibi sevdiğin için teşekkür ederim.
+
+            <br><br>
+
+            Umarım birlikte daha nice güzel anılar biriktiririz.
+
+            <br><br>
+
+            ❤️ İyi ki doğdun sevgilim.
+
+            <br><br>
+
+            Seni çok seviyorum.
+
+            <br><br>
+
+            ❤️ 
+
+        </p>
+
+    </div>
+
+</section>
+<section id="birthday"class="hidden">
+
+    <h2>🎂 Son Bir Sürpriz...</h2>
+
+    <div class="birthday-box">
+
+        <h3>İyi ki Doğdun ❤️</h3>
+
+        <p>
+            Umarım bu küçük sürpriz seni mutlu etmiştir.
+            Bu site sadece birkaç satır kod değil...
+            Birlikte yaşadığımız güzel anıların küçük bir hatırası.
+        </p>
+
+        <button id="celebrateBtn">
+            Hediyeni Aç 🎁
+        </button>
+
+        <div id="finalMessage" style="display:none;">
+
+            <h2>❤️ Seni Çok Seviyorum ❤️</h2>
+
+            <p>
+
+                Nice doğum günlerini birlikte kutlamak dileğiyle...
+
+                <br><br>
+
+                İyi ki varsın.
+                İyi ki benim hayatımdasın.
+
+                <br><br>
+
+                ❤️ karıcık
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <section id="memories">
+
+    <h2>❤️ Bizi Anlatan Küçük Şeyler ❤️</h2>
+
+    <div class="memory-grid">
+
+        <div class="memory-card">
+            🍽️
+            <h3>Büryan Family</h3>
+            <p>
+                Bir büryanla başlayan ve hâlâ güldüğümüz efsane. 😂
+            </p>
+        </div>
+            <p>
+               karıcık kocacık gesiyoz💫:)
+            </p>
+        </div>
+
+        <div class="memory-card">
+            💛💙
+            <h3>Fenerbahçe</h3>
+            <p>
+               EN BÜYÜK. 😊
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
